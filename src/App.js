@@ -168,7 +168,7 @@ function App() {
             <div id="dropdown" className="navP__dropdown__links">
               <div className="navP__dropdown__links__link">
                 <AiOutlinePhone />
-                <p>(905)-802-4431</p>
+                <p>Available Upon Request</p>
               </div>
               <div className="navP__dropdown__links__link">
                 <AiOutlineMail />
