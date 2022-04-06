@@ -228,7 +228,7 @@ header {
     font-size: 0.8rem;
     margin: 0 2em;
     line-height: 1.9;
-    margin-bottom: 1em;
+    margin-bottom: 2.5em;
   }
   img {
     border-radius: 50%;
@@ -431,14 +431,35 @@ $SK-mg-x: 12em;
   padding: 1.5em;
   display: flex;
   width: 100%;
-  div {
-    margin-left: auto;
-  }
+  border: 1px solid #e9e9e9;
   p {
-    width: 150px;
-    font-weight: 500;
-    letter-spacing: 0.1em;
+    font-size: 13px;
   }
+  &-child {
+    width: 100%;
+    .prof-title {
+      text-align: center;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      margin-top: -8px;
+    }
+  }
+}
+
+.experience-flag-cont {
+  width: 75px;
+  border: 1px solid black;
+  margin-left: 10px;
+  border-radius: 8px;
+  padding: 0 8px;
+  p:last-child {
+    font-weight: 600;
+  }
+}
+
+div[role=progressbar] {
+  width: 100%;
 }
 
 .circle {
@@ -1009,10 +1030,16 @@ $PR-mg-x: 12em;
   .skills__table {
     margin: 0 1em;
   }
+  .skills-grid {
+    grid-template-columns: auto;
+  }
+  .experience-flag-cont {
+    display: none;
+  }
   .skills-item {
     flex-direction: column;
     margin: 0;
-    padding: 0.5em;
+    padding: 1em;
     font-size: 0.7rem;
     p {
       font-weight: 400;

@@ -60,14 +60,31 @@ const Experience = ({ BackToTop }) => {
             <h1>EXPERIENCE</h1>
           </div>
           <div className="expS-cont">
-            <div className="exp-cont ">
+            <div className="exp-cont">
               <div className="number">
                 <div className="number-inner">01</div>
                 <div className="rect"></div>
               </div>
               <div className="exp-desc-cont cont1">
+                <h2>XTIVA- Financial Systems</h2>
+                <h4>FrontEnd Developer (Aug 2021 - Apr 2022)</h4>
+                <p>
+                  Acted as UX/UI designer and FE developer to create multiple new systems including error correction and rule creation. 
+                </p>
+                <p>
+                  The Xtiva codebase consisted of a scala backend and Play framework FrontEnd paired with jQuery and Kendo UI. All design followed 
+                  google's material design guidelines. 
+                </p>
+              </div>
+            </div>
+            <div className="exp-cont ">
+              <div className="number">
+                <div className="number-inner">02</div>
+                <div className="rect"></div>
+              </div>
+              <div className="exp-desc-cont cont2">
                 <h2>SKY IT</h2>
-                <h4>FrontEnd Developer (May 2021-present)</h4>
+                <h4>FrontEnd Developer (Apr 2021 - Sep 2021)</h4>
                 <p>
                   Worked within an agile team to develop new designs and
                   versions of our web services. Implemented enhanceents and
@@ -82,10 +99,10 @@ const Experience = ({ BackToTop }) => {
             </div>
             <div className="exp-cont">
               <div className="number">
-                <div className="number-inner">02</div>
+                <div className="number-inner">03</div>
                 <div className="rect"></div>
               </div>
-              <div className="exp-desc-cont cont2">
+              <div className="exp-desc-cont cont3">
                 <h2>Cabinet Office</h2>
                 <h4>Full Stack Developer (Jan-April 2021)</h4>
                 <p>
@@ -98,22 +115,6 @@ const Experience = ({ BackToTop }) => {
                   assets a client posses or routine data managment. However one
                   of the larger projects I undertook was creating a landing page
                   for our department. (Highlighted in Projects section)
-                </p>
-              </div>
-            </div>
-            <div className="exp-cont ">
-              <div className="number">
-                <div className="number-inner">03</div>
-                <div className="rect"></div>
-              </div>
-              <div className="exp-desc-cont cont3">
-                <h2>Volunteering</h2>
-                <h4>Peer tutoring(Winter 2020)</h4>
-                <p>
-                  I Performed peer tutoring to help my peer swith the stress of
-                  post secondary education using visual supports, visual aids
-                  and detailed note summaries to help 3 students increase course
-                  average by 5%+.
                 </p>
               </div>
             </div>

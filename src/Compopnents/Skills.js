@@ -7,6 +7,7 @@ import JS from "../images/JS-BG.png";
 import Cpp from "../images/C++-BG.png";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import ProgressBar from "@ramonak/react-progress-bar";
 
 const Skills = ({ BackToTop }) => {
   //ANIMATIONS
@@ -181,42 +182,25 @@ const Skills = ({ BackToTop }) => {
                 Almost all of my programming knowledge has been self-taught.
                 Through books from my local library, a plethora of YouTube
                 videos and hours of practice and studying I have managed to gain
-                proficiency in 5 different languages. The projects I have
-                undertaken and completed are driven by an interest and passion
+                a proficiency with multiple technologies that I could implement in a professional setting. The projects I have
+                undertaken and completed are driven by an interest
                 in the subject and sometimes a need to make life a little
                 easier.
               </p>
             </div>
             <div className="skills__card__cards">
               <div className="skills__card__card">
-                <h1>HTML / CSS</h1>
-                <h5>
-                  I truly enjoy web developpment, I believe it is a great
-                  opportunity to display my creativity and technical skill
-                  through varying stylistic visual elements. As displayed in the
-                  projects section.
-                </h5>
-                <p>EXPERIENCE</p>
-                <div className="progress-bar">
-                  <div style={{ width: "95%" }} className="progress-bar-FILL">
-                    95%
-                  </div>
-                </div>
-
-                <img src={htmlCSS} alt="" />
-              </div>
-              <div className="skills__card__card">
                 <h1>Python</h1>
                 <h5>
-                  My passion for Python is driven by an interest in automation.
-                  Many short scripts and projects of automation can be found in
-                  my GitHub linked on the navigation page!
+                  I have used python to explore domains such as web scraping and 
+                  machine learning using powerful libraries such as 
+                  selenium and tensor flow. Visit my github for the code.
                 </h5>
-                <p>EXPERIENCE</p>
+                <p>PROFICIENCY</p>
                 <div className="progress-bar">
                   <div style={{ width: "75%" }} className="progress-bar-FILL">
                     {" "}
-                    75%
+                    85%
                   </div>
                 </div>
                 <img src={python} alt="" />
@@ -224,15 +208,15 @@ const Skills = ({ BackToTop }) => {
               <div className="skills__card__card">
                 <h1>JavaScript</h1>
                 <h5>
-                  Through JavaScript and its accompanying frameworks and
-                  libraries I have been able to add a degree of complexity to my
-                  UI and UX. Through animation and efficient organization using
-                  tools like react components.
+                  I have used JavaScript to accomplish
+                  many tasks from front end development to game design.
+                  My experience includes libraries like jQuery and Kendo UI and frameworks such as 
+                  react.js. 
                 </h5>
-                <p>EXPERIENCE</p>
+                <p>PROFICIENCY</p>
                 <div className="progress-bar">
                   <div style={{ width: "85%" }} className="progress-bar-FILL">
-                    85%
+                    95%
                   </div>
                 </div>
                 <img src={JS} alt="" />
@@ -244,13 +228,30 @@ const Skills = ({ BackToTop }) => {
                   programming fundamentals course. We explored Object Oriented
                   programming, Algorithms, inheritance, polymorphism and more.
                 </h5>
-                <p>EXPERIENCE</p>
+                <p>PROFICIENCY</p>
                 <div className="progress-bar">
                   <div style={{ width: "70%" }} className="progress-bar-FILL">
                     70%
                   </div>
                 </div>
                 <img src={Cpp} alt="" />
+              </div>
+              <div className="skills__card__card">
+                <h1>HTML / CSS</h1>
+                <h5>
+                  I truly enjoy web developpment, I believe it is a great
+                  opportunity to display my creativity and technical skill
+                  through varying stylistic visual elements. As displayed in the
+                  projects section.
+                </h5>
+                <p>PROFICIENCY</p>
+                <div className="progress-bar">
+                  <div style={{ width: "95%" }} className="progress-bar-FILL">
+                    95%
+                  </div>
+                </div>
+
+                <img src={htmlCSS} alt="" />
               </div>
             </div>
           </div>
@@ -262,137 +263,137 @@ const Skills = ({ BackToTop }) => {
             </div>
             <div className="skills-grid">
               <div className="skills-item">
-                <p>React JS</p>
-                <div className="progress-bar">
-                  <div
-                    style={{ width: "80%" }}
-                    className="progress-bar-FILL B1"
-                  >
-                    80%
-                  </div>
-                </div>
+                <div className="skills-item-child">
+                  <p>React JS</p>
+                  <p className="prof-title">PROFICIENCY</p>
+                  <ProgressBar completed={80} bgColor={"#458FFF"} />
+                </div>   
+                <div className="experience-flag-cont">
+                  <p>EXP.</p>
+                  <p>2 yrs</p>
+                </div>   
               </div>
               <div className="skills-item">
-                <p>Flask</p>
-                <div className="progress-bar">
-                  <div
-                    style={{ width: "60%" }}
-                    className="progress-bar-FILL B2"
-                  >
-                    60%
-                  </div>
+                <div className="skills-item-child">
+                  <p>Flask</p>
+                  <p className="prof-title">PROFICIENCY</p>
+                  <ProgressBar completed={60} bgColor={"#458FFF"} />
                 </div>
+                <div className="experience-flag-cont">
+                  <p>EXP.</p>
+                  <p>1 year</p>
+                </div>     
               </div>
               <div className="skills-item">
-                <p>Selenium</p>
-                <div className="progress-bar">
-                  <div
-                    style={{ width: "95%" }}
-                    className="progress-bar-FILL B3"
-                  >
-                    95%
-                  </div>
-                </div>
+                <div className="skills-item-child">
+                  <p>Selenium</p>
+                  <p className="prof-title">PROFICIENCY</p>
+                  <ProgressBar completed={95} bgColor={"#458FFF"} />
+                </div> 
+                <div className="experience-flag-cont">
+                  <p>EXP.</p>
+                  <p>16 mo.</p>
+                </div>   
               </div>
               <div className="skills-item">
-                <p>JQuery</p>
-                <div className="progress-bar">
-                  <div
-                    style={{ width: "70%" }}
-                    className="progress-bar-FILL B4"
-                  >
-                    70%
-                  </div>
-                </div>
+                <div className="skills-item-child">
+                  <p>JQuery</p>
+                  <p className="prof-title">PROFICIENCY</p>
+                  <ProgressBar completed={90} bgColor={"#458FFF"} />
+                </div> 
+                <div className="experience-flag-cont">
+                  <p>EXP.</p>
+                  <p>18 mo.</p>
+                </div>   
               </div>
               <div className="skills-item">
-                <p>Pygame</p>
-                <div className="progress-bar">
-                  <div
-                    style={{ width: "75%" }}
-                    className="progress-bar-FILL B5"
-                  >
-                    75%
-                  </div>
-                </div>
+                <div className="skills-item-child">
+                  <p>TensorFlow</p>
+                  <p className="prof-title">PROFICIENCY</p>
+                  <ProgressBar completed={65} bgColor={"#458FFF"} />
+                </div> 
+                <div className="experience-flag-cont">
+                  <p>EXP.</p>
+                  <p>8 mo.</p>
+                </div>   
               </div>
               <div className="skills-item">
-                <p>Node JS</p>
-                <div className="progress-bar">
-                  <div
-                    style={{ width: "80%" }}
-                    className="progress-bar-FILL B6"
-                  >
-                    80%
-                  </div>
-                </div>
+                <div className="skills-item-child">
+                  <p>Node JS</p>
+                  <p className="prof-title">PROFICIENCY</p>
+                  <ProgressBar completed={80} bgColor={"#458FFF"} />
+                </div> 
+                <div className="experience-flag-cont">
+                  <p>EXP.</p>
+                  <p>8 mo.</p>
+                </div>   
               </div>
 
               <div className="skills-item">
-                <p>Express</p>
-                <div className="progress-bar">
-                  <div
-                    style={{ width: "65%" }}
-                    className="progress-bar-FILL B7"
-                  >
-                    65%
-                  </div>
-                </div>
+                <div className="skills-item-child">
+                  <p>Express</p>
+                  <p className="prof-title">PROFICIENCY</p>
+                  <ProgressBar completed={65} bgColor={"#458FFF"} />
+                </div> 
+                <div className="experience-flag-cont">
+                  <p>EXP.</p>
+                  <p>8 mo.</p>
+                </div>   
               </div>
               <div className="skills-item">
-                <p>VS Code</p>
-                <div className="progress-bar">
-                  <div
-                    style={{ width: "70%" }}
-                    className="progress-bar-FILL B8"
-                  >
-                    70%
-                  </div>
-                </div>
+                <div className="skills-item-child">
+                  <p>Bootstrap, Tailwind</p>
+                  <p className="prof-title">PROFICIENCY</p>
+                  <ProgressBar completed={70} bgColor={"#458FFF"} />
+                </div> 
+                <div className="experience-flag-cont">
+                  <p>EXP.</p>
+                  <p>16 mo.</p>
+                </div>   
               </div>
               <div className="skills-item">
-                <p>Redux</p>
-                <div className="progress-bar">
-                  <div
-                    style={{ width: "87%" }}
-                    className="progress-bar-FILL B9"
-                  >
-                    85%
-                  </div>
-                </div>
+                <div className="skills-item-child">
+                  <p>Redux</p>
+                  <p className="prof-title">PROFICIENCY</p>
+                  <ProgressBar completed={85} bgColor={"#458FFF"} />
+                </div> 
+                <div className="experience-flag-cont">
+                  <p>EXP.</p>
+                  <p>8 mo.</p>
+                </div>   
               </div>
               <div className="skills-item">
-                <p>MS Office</p>
-                <div className="progress-bar">
-                  <div
-                    style={{ width: "80%" }}
-                    className="progress-bar-FILL B10"
-                  >
-                    80%
-                  </div>
-                </div>
+                <div className="skills-item-child">
+                  <p>Play</p>
+                  <p className="prof-title">PROFICIENCY</p>
+                  <ProgressBar completed={75} bgColor={"#458FFF"} />
+                </div> 
+                <div className="experience-flag-cont">
+                  <p>EXP.</p>
+                  <p>18 mo.</p>
+                </div>   
               </div>
               <div className="skills-item">
-                <p>Anglar</p>
-                <div className="progress-bar">
-                  <div
-                    style={{ width: "85%" }}
-                    className="progress-bar-FILL B11"
-                  >
-                    75%
-                  </div>
-                </div>
+                <div className="skills-item-child">
+                  <p>Angular</p>
+                  <p className="prof-title">PROFICIENCY</p>
+                  <ProgressBar completed={65} bgColor={"#458FFF"} />
+                </div> 
+                <div className="experience-flag-cont">
+                  <p>EXP.</p>
+                  <p>1 year</p>
+                </div>   
               </div>
               <div className="skills-item">
-                <p>Mongo DB</p>
-                <div className="progress-bar">
-                  <div
-                    style={{ width: "70%" }}
-                    className="progress-bar-FILL B12"
-                  >
-                    70%
-                  </div>
-                </div>
+                <div className="skills-item-child">
+                  <p>Mongo DB</p>
+                  <p className="prof-title">PROFICIENCY</p>
+                  <ProgressBar completed={70} bgColor={"#458FFF"} />
+                </div> 
+                <div className="experience-flag-cont">
+                  <p>EXP.</p>
+                  <p>1 year</p>
+                </div>   
               </div>
             </div>
           </div>

@@ -146,15 +146,16 @@ function App() {
               <div className="aboutMe-container">
                 <h2>ABOUT ME</h2>
                 <p>
-                  Hello, I am a first year computer engineering student studying
-                  at the university of waterloo.
+                  Hello, I am a University of Waterloo computer engineering student.
                 </p>
-                <img src={profile} alt="" />
                 <p>
-                  I have 10+ years of classical music training and active
-                  participation in sports. Self-taught technical coding skill
-                  driven by a thirst for learning and a passion for programming.
+                  I have over 1.5 years of software development experience in non co-op roles and 10+ years of classical music training and active
+                  participation in sports. 
                 </p>
+                <p>
+                  My coding skill is driven by a passion for programming and a drive to learn and better my understanding 
+                  of technology.
+                  </p>
               </div>
             </div>
           </div>

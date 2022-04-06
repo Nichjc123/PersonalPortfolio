@@ -140,8 +140,8 @@ const Projects = ({ BackToTop }) => {
             <div className="proj-info">
               <div className="sec-text">SECTION 2.1</div>
               <div className="title-container">
-                <div className="title-text">Home Page Site</div>
-                <a href="https://homepage-app.netlify.app">
+                <div className="title-text">Stock Price Predictor</div>
+                <a href="https://github.com/Nichjc123/Projects/blob/master/2021/MachineLearning/stockPredictor.py">
                   <BiLinkExternal />
                 </a>
               </div>
@@ -149,10 +149,9 @@ const Projects = ({ BackToTop }) => {
               <div className="desc-tile">FEATURES</div>
               <div className="desc-wrapper">
                 <p>
-                  This project is a home page application using HTML/CSS and
-                  vanilla javascript. Using a weather API it provides accurante
-                  information based on your location along with dynamic
-                  greetings, quotes, and the time.
+                  This is a machine learning project used to predict the stock price of 
+                  AAPL. Using its trading history from 1984 - 2017. I utilized a 4 layer neural network with
+                  3 LSTM layers to build the model. An accuracy of approximately 0.61 was acheived on the testing data of 2011-2017.
                 </p>
               </div>
             </div>
@@ -190,20 +189,19 @@ const Projects = ({ BackToTop }) => {
           <div className="project-container container-3">
             <div className="proj-info3">
               <div className="sec-text">SECTION 2.3</div>
-              <div className="title-text">Cabinet IT Landing Page</div>
+              <div className="title-text">CABINET OFFICE & XTIVA</div>
               <div className="title-cover"></div>
               <div className="desc-tile">DESCRIPTION</div>
               <div className="p-box">
                 <p>
-                  This is a landing page for the Cabinet Office IT support. I
-                  have created this website without assitance, it is completly
+                  The slider displays a page for the Cabinet Office IT support. I
+                  have created this website independently using a Sharepoint services it is
                   responsive and functional on mobile devices. With an adaptive
                   dropdown menu.
                 </p>
                 <p>
-                  Using a Sharepoint services library a functional Contact Us
-                  form is automatically populated aswell as the main header of
-                  the page using information from the user's microsoft account.
+                  The slider also includes Xtiva's compact financial service site that I was tasked to design and create
+                  along with their main application.
                 </p>
               </div>
             </div>
