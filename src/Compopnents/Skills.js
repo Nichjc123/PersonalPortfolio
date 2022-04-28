@@ -182,19 +182,19 @@ const Skills = ({ BackToTop }) => {
                 Almost all of my programming knowledge has been self-taught.
                 Through books from my local library, a plethora of YouTube
                 videos and hours of practice and studying I have managed to gain
-                a proficiency with multiple technologies that I could implement in a professional setting. The projects I have
-                undertaken and completed are driven by an interest
-                in the subject and sometimes a need to make life a little
-                easier.
+                a proficiency with multiple technologies that I could implement
+                in a professional setting. The projects I have undertaken and
+                completed are driven by an interest in the subject and sometimes
+                a need to make life a little easier.
               </p>
             </div>
             <div className="skills__card__cards">
               <div className="skills__card__card">
                 <h1>Python</h1>
                 <h5>
-                  I have used python to explore domains such as web scraping and 
-                  machine learning using powerful libraries such as 
-                  selenium and tensor flow. Visit my github for the code.
+                  I have used python to explore domains such as web scraping and
+                  machine learning using powerful libraries such as selenium and
+                  tensor flow. Visit my github for the code.
                 </h5>
                 <p>PROFICIENCY</p>
                 <div className="progress-bar">
@@ -208,10 +208,9 @@ const Skills = ({ BackToTop }) => {
               <div className="skills__card__card">
                 <h1>JavaScript</h1>
                 <h5>
-                  I have used JavaScript to accomplish
-                  many tasks from front end development to game design.
-                  My experience includes libraries like jQuery and Kendo UI and frameworks such as 
-                  react.js. 
+                  I have used JavaScript to accomplish many tasks from front end
+                  development to game design. My experience includes libraries
+                  like jQuery and Kendo UI and frameworks such as react.js.
                 </h5>
                 <p>PROFICIENCY</p>
                 <div className="progress-bar">
@@ -267,11 +266,11 @@ const Skills = ({ BackToTop }) => {
                   <p>React JS</p>
                   <p className="prof-title">PROFICIENCY</p>
                   <ProgressBar completed={80} bgColor={"#458FFF"} />
-                </div>   
+                </div>
                 <div className="experience-flag-cont">
                   <p>EXP.</p>
                   <p>2 yrs</p>
-                </div>   
+                </div>
               </div>
               <div className="skills-item">
                 <div className="skills-item-child">
@@ -282,51 +281,51 @@ const Skills = ({ BackToTop }) => {
                 <div className="experience-flag-cont">
                   <p>EXP.</p>
                   <p>1 year</p>
-                </div>     
+                </div>
               </div>
               <div className="skills-item">
                 <div className="skills-item-child">
                   <p>Selenium</p>
                   <p className="prof-title">PROFICIENCY</p>
                   <ProgressBar completed={95} bgColor={"#458FFF"} />
-                </div> 
+                </div>
                 <div className="experience-flag-cont">
                   <p>EXP.</p>
                   <p>16 mo.</p>
-                </div>   
+                </div>
               </div>
               <div className="skills-item">
                 <div className="skills-item-child">
                   <p>JQuery</p>
                   <p className="prof-title">PROFICIENCY</p>
                   <ProgressBar completed={90} bgColor={"#458FFF"} />
-                </div> 
+                </div>
                 <div className="experience-flag-cont">
                   <p>EXP.</p>
                   <p>18 mo.</p>
-                </div>   
+                </div>
               </div>
               <div className="skills-item">
                 <div className="skills-item-child">
                   <p>TensorFlow</p>
                   <p className="prof-title">PROFICIENCY</p>
                   <ProgressBar completed={65} bgColor={"#458FFF"} />
-                </div> 
+                </div>
                 <div className="experience-flag-cont">
                   <p>EXP.</p>
                   <p>8 mo.</p>
-                </div>   
+                </div>
               </div>
               <div className="skills-item">
                 <div className="skills-item-child">
                   <p>Node JS</p>
                   <p className="prof-title">PROFICIENCY</p>
                   <ProgressBar completed={80} bgColor={"#458FFF"} />
-                </div> 
+                </div>
                 <div className="experience-flag-cont">
                   <p>EXP.</p>
                   <p>8 mo.</p>
-                </div>   
+                </div>
               </div>
 
               <div className="skills-item">
@@ -334,66 +333,66 @@ const Skills = ({ BackToTop }) => {
                   <p>Express</p>
                   <p className="prof-title">PROFICIENCY</p>
                   <ProgressBar completed={65} bgColor={"#458FFF"} />
-                </div> 
+                </div>
                 <div className="experience-flag-cont">
                   <p>EXP.</p>
                   <p>8 mo.</p>
-                </div>   
+                </div>
               </div>
               <div className="skills-item">
                 <div className="skills-item-child">
                   <p>Bootstrap, Tailwind</p>
                   <p className="prof-title">PROFICIENCY</p>
                   <ProgressBar completed={70} bgColor={"#458FFF"} />
-                </div> 
+                </div>
                 <div className="experience-flag-cont">
                   <p>EXP.</p>
                   <p>16 mo.</p>
-                </div>   
+                </div>
               </div>
               <div className="skills-item">
                 <div className="skills-item-child">
-                  <p>Redux</p>
+                  <p>Fusion 360</p>
                   <p className="prof-title">PROFICIENCY</p>
                   <ProgressBar completed={85} bgColor={"#458FFF"} />
-                </div> 
+                </div>
                 <div className="experience-flag-cont">
                   <p>EXP.</p>
                   <p>8 mo.</p>
-                </div>   
+                </div>
               </div>
               <div className="skills-item">
                 <div className="skills-item-child">
                   <p>Play</p>
                   <p className="prof-title">PROFICIENCY</p>
                   <ProgressBar completed={75} bgColor={"#458FFF"} />
-                </div> 
+                </div>
                 <div className="experience-flag-cont">
                   <p>EXP.</p>
                   <p>18 mo.</p>
-                </div>   
+                </div>
               </div>
               <div className="skills-item">
                 <div className="skills-item-child">
                   <p>Angular</p>
                   <p className="prof-title">PROFICIENCY</p>
                   <ProgressBar completed={65} bgColor={"#458FFF"} />
-                </div> 
+                </div>
                 <div className="experience-flag-cont">
                   <p>EXP.</p>
                   <p>1 year</p>
-                </div>   
+                </div>
               </div>
               <div className="skills-item">
                 <div className="skills-item-child">
                   <p>Mongo DB</p>
                   <p className="prof-title">PROFICIENCY</p>
                   <ProgressBar completed={70} bgColor={"#458FFF"} />
-                </div> 
+                </div>
                 <div className="experience-flag-cont">
                   <p>EXP.</p>
                   <p>1 year</p>
-                </div>   
+                </div>
               </div>
             </div>
           </div>
