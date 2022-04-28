@@ -113,7 +113,7 @@ function App() {
           <div className="navP__res-down">
             <p>Press the icon to download a copy of my résumé.</p>
             <a
-              href="https://drive.google.com/file/d/1mCJOJ8pSf1bry8UxgmrKuV-XcQyAsPRx/view?usp=sharing"
+              href="https://drive.google.com/file/d/1K6Am-eoPq_CH0bHpBnJItOzDusNdJaIa/view?usp=sharing"
               target="_blank"
             >
               <AiOutlineDownload />
@@ -146,16 +146,18 @@ function App() {
               <div className="aboutMe-container">
                 <h2>ABOUT ME</h2>
                 <p>
-                  Hello, I am a University of Waterloo computer engineering student.
+                  Hello, I am a University of Waterloo computer engineering
+                  student.
                 </p>
                 <p>
-                  I have over 1.5 years of software development experience in non co-op roles and 10+ years of classical music training and active
-                  participation in sports. 
+                  I have over 1.5 years of software development experience in
+                  non co-op roles and 10+ years of classical music training and
+                  active participation in sports.
                 </p>
                 <p>
-                  My coding skill is driven by a passion for programming and a drive to learn and better my understanding 
-                  of technology.
-                  </p>
+                  My coding skill is driven by a passion for programming and a
+                  drive to learn and better my understanding of technology.
+                </p>
               </div>
             </div>
           </div>
