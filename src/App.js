@@ -113,7 +113,7 @@ function App() {
           <div className="navP__res-down">
             <p>Press the icon to download a copy of my résumé.</p>
             <a
-              href="https://drive.google.com/file/d/1K6Am-eoPq_CH0bHpBnJItOzDusNdJaIa/view?usp=sharing"
+              href="https://drive.google.com/file/d/1YmETZO8hE5US1ZMdAyriu61siPEbvPlx/view?usp=sharing"
               target="_blank"
             >
               <AiOutlineDownload />
