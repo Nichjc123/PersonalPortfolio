@@ -2,20 +2,13 @@ import "./style.css";
 import Skills from "./Compopnents/Skills";
 import Projects from "./Compopnents/Projects";
 import Experience from "./Compopnents/Experience";
-import {
-  AiOutlineDownload,
-  AiOutlinePhone,
-  AiOutlineMail,
-  AiOutlineLinkedin,
-  AiOutlineGithub,
-} from "react-icons/ai";
-import { BiLinkExternal } from "react-icons/bi";
-import { IoIosArrowDropdown } from "react-icons/io";
-import profile from "./images/Profile.jpg";
+import ResCard from "./Compopnents/ResCard";
 import { gsap } from "gsap";
 import { useState, useEffect, useRef } from "react";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
+import ParticlesBg from "particles-bg";
+import Card from "react-animated-3d-card";
+import { AiOutlineDownload } from "react-icons/ai";
 
 function App() {
   const [skills, setSkills] = useState(false);
@@ -23,15 +16,6 @@ function App() {
   const [exp, setExp] = useState(false);
   let height = window.innerHeight;
 
-  const dropdown = (e) => {
-    e.preventDefault();
-    const dropdown = document.getElementById("dropdown");
-    if (dropdown.classList.contains("open")) {
-      dropdown.classList.remove("open");
-    } else {
-      dropdown.classList.add("open");
-    }
-  };
   const STB = () => {
     var Scroll = require("react-scroll");
     var scroll = Scroll.animateScroll;
@@ -76,31 +60,21 @@ function App() {
       y: "50px",
       opacity: 0,
       duration: 2,
-    })
-      .from(
-        ref.querySelector(".resume-container"),
-        {
-          x: "-50px",
-          opacity: 0,
-          duration: 2,
-          ease: "power4.out",
-        },
-        "-=1.6"
-      )
-      .from(
-        ref.querySelector(".navP__dropdown__header"),
-        {
-          y: "-50px",
-          opacity: 0,
-          duration: 2,
-          scale: 0.1,
-          ease: "power4.out",
-        },
-        "-=1.5"
-      );
+    }).from(
+      ref.querySelector(".navP__dropdown__header"),
+      {
+        y: "-50px",
+        opacity: 0,
+        duration: 2,
+        scale: 0.1,
+        ease: "power4.out",
+      },
+      "-=1.5"
+    );
   }, []);
   return (
     <>
+      <ParticlesBg type="cobweb" bg={true} />
       <div
         ref={(el) => {
           ref = el;
@@ -113,100 +87,29 @@ function App() {
           <div className="navP__res-down">
             <p>Press the icon to download a copy of my résumé.</p>
             <a
+              rel="noreferrer"
               href="https://drive.google.com/file/d/1YmETZO8hE5US1ZMdAyriu61siPEbvPlx/view?usp=sharing"
               target="_blank"
             >
               <AiOutlineDownload />
             </a>
           </div>
-          <div className="resume-container">
-            <div className="left-column">
-              <div className="navP__info">
-                <h3>NAVIGATE</h3>
-                <div className="navP__info__desc">
-                  <p>Press the titles below to view more.</p>
-
-                  <BiLinkExternal />
-                </div>
-              </div>
-              <div className="navP__links">
-                <div className="navP__links_link">
-                  <button onClick={skillHandler}>SKILLS</button>
-                </div>
-                <div className="navP__links_link">
-                  <button onClick={projHandler}>PROJECTS</button>
-                </div>
-                <div className="navP__links_link">
-                  <button onClick={expHandler}>EXPERIENCE</button>
-                </div>
-              </div>
-            </div>
-            <div className="right-column">
-              <p id="resName">NICHOLAS CANTONE</p>
-              <div className="aboutMe-container">
-                <h2>ABOUT ME</h2>
-                <p>
-                  Hello, I am a University of Waterloo computer engineering
-                  student.
-                </p>
-                <p>
-                  I have over 1.5 years of software development experience in
-                  non co-op roles and 10+ years of classical music training and
-                  active participation in sports.
-                </p>
-                <p>
-                  My coding skill is driven by a passion for programming and a
-                  drive to learn and better my understanding of technology.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="navP__dropdown">
-            <div className="navP__dropdown__header">
-              <p>Contact Me</p>
-              <span onClick={dropdown} className="contact">
-                <IoIosArrowDropdown />
-              </span>
-            </div>
-            <div id="dropdown" className="navP__dropdown__links">
-              <div className="navP__dropdown__links__link">
-                <AiOutlinePhone />
-                <p>Available Upon Request</p>
-              </div>
-              <div className="navP__dropdown__links__link">
-                <AiOutlineMail />
-                <p>ncantone@uwaterloo.ca</p>
-              </div>
-              <div className="navP__dropdown__links__link">
-                <a
-                  style={{ color: "white" }}
-                  href="https://www.linkedin.com/in/nicholas-cantone-b464241b3/"
-                >
-                  <AiOutlineLinkedin />
-                </a>
-                <a
-                  style={{ color: "white" }}
-                  href="https://www.linkedin.com/in/nicholas-cantone-b464241b3/"
-                >
-                  <p>LinkedIn</p>
-                </a>
-              </div>
-              <div className="navP__dropdown__links__link">
-                <a
-                  style={{ color: "white" }}
-                  href="https://github.com/Nichjc123"
-                >
-                  <AiOutlineGithub />
-                </a>
-                <a
-                  style={{ color: "white" }}
-                  href="https://github.com/Nichjc123"
-                >
-                  <p>GitHub</p>
-                </a>
-              </div>
-            </div>
-          </div>
+          <Card
+            style={{
+              zIndex: "0",
+              border: "1px solid black",
+              boxShadow: "5px 10px 18px #888888",
+            }}
+            borderRadius="0px"
+            shineStrength={0}
+          >
+            <ResCard
+              projHandler={projHandler}
+              skillHandler={skillHandler}
+              expHandler={expHandler}
+            />
+          </Card>
+          <div className="navP__dropdown"></div>
         </div>
       </div>
       {skills ? <Skills BackToTop={BackToTop} /> : null}
