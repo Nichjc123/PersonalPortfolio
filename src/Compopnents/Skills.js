@@ -6,8 +6,18 @@ import python from "../images/python-BG.png";
 import JS from "../images/JS-BG.png";
 import Cpp from "../images/C++-BG.png";
 import { gsap } from "gsap";
+import Flask from "../images/skill images/Flask-icon.png";
+import Selenium from "../images/skill images/Selenium-icon.png";
+import ReactImg from "../images/skill images/React-icon.png";
+import AWS from "../images/skill images/AWS-icon.png";
+import Fusion from "../images/skill images/Fusion-icon.png";
+import JQuery from "../images/skill images/Jquery-icon.png";
+import Mongo from "../images/skill images/Mongo-icon.png";
+import Play from "../images/skill images/Play-icon.png";
+import temp from "../images/skill images/Placeholder-logo.png";
+import TensorFlow from "../images/skill images/Tensor-icon.png";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import ProgressBar from "@ramonak/react-progress-bar";
+import { Placeholder } from "react-bootstrap";
 
 const Skills = ({ BackToTop }) => {
   //ANIMATIONS
@@ -31,127 +41,6 @@ const Skills = ({ BackToTop }) => {
       opacity: 0,
       duration: 1.2,
     });
-
-    gsap.from(ref.querySelector(".B1"), {
-      scrollTrigger: {
-        trigger: ref.querySelector(".skills-grid"),
-        start: "top bottom",
-      },
-      scaleX: 0,
-      transformOrigin: "0px 0px",
-      ease: "none",
-      duration: 1.2,
-    });
-    gsap.from(ref.querySelector(".B2"), {
-      scrollTrigger: {
-        trigger: ref.querySelector(".skills-grid"),
-        start: "top bottom",
-      },
-      scaleX: 0,
-      transformOrigin: "0px 0px",
-      ease: "none",
-      duration: 1.4,
-    });
-    gsap.from(ref.querySelector(".B3"), {
-      scrollTrigger: {
-        trigger: ref.querySelector(".skills-grid"),
-        start: "top bottom",
-      },
-      scaleX: 0,
-      transformOrigin: "0px 0px",
-      ease: "none",
-      duration: 1.4,
-    });
-    gsap.from(ref.querySelector(".B4"), {
-      scrollTrigger: {
-        trigger: ref.querySelector(".skills-grid"),
-        start: "top bottom",
-      },
-      scaleX: 0,
-      transformOrigin: "0px 0px",
-      ease: "none",
-      duration: 1.4,
-    });
-    gsap.from(ref.querySelector(".B5"), {
-      scrollTrigger: {
-        trigger: ref.querySelector(".skills-grid"),
-        start: "top bottom",
-      },
-      scaleX: 0,
-      transformOrigin: "0px 0px",
-      ease: "none",
-      duration: 1.4,
-    });
-    gsap.from(ref.querySelector(".B6"), {
-      scrollTrigger: {
-        trigger: ref.querySelector(".skills-grid"),
-        start: "top bottom",
-      },
-      scaleX: 0,
-      transformOrigin: "0px 0px",
-      ease: "none",
-      duration: 1.4,
-    });
-    gsap.from(ref.querySelector(".B7"), {
-      scrollTrigger: {
-        trigger: ref.querySelector(".skills-grid"),
-        start: "top bottom",
-      },
-      scaleX: 0,
-      transformOrigin: "0px 0px",
-      ease: "none",
-      duration: 1.4,
-    });
-    gsap.from(ref.querySelector(".B8"), {
-      scrollTrigger: {
-        trigger: ref.querySelector(".skills-grid"),
-        start: "top bottom",
-      },
-      scaleX: 0,
-      transformOrigin: "0px 0px",
-      ease: "none",
-      duration: 1.4,
-    });
-    gsap.from(ref.querySelector(".B9"), {
-      scrollTrigger: {
-        trigger: ref.querySelector(".skills-grid"),
-        start: "top bottom",
-      },
-      scaleX: 0,
-      transformOrigin: "0px 0px",
-      ease: "none",
-      duration: 1.4,
-    });
-    gsap.from(ref.querySelector(".B10"), {
-      scrollTrigger: {
-        trigger: ref.querySelector(".skills-grid"),
-        start: "top bottom",
-      },
-      scaleX: 0,
-      transformOrigin: "0px 0px",
-      ease: "none",
-      duration: 1.4,
-    });
-    gsap.from(ref.querySelector(".B11"), {
-      scrollTrigger: {
-        trigger: ref.querySelector(".skills-grid"),
-        start: "top bottom",
-      },
-      scaleX: 0,
-      transformOrigin: "0px 0px",
-      ease: "none",
-      duration: 1.4,
-    });
-    gsap.from(ref.querySelector(".B12"), {
-      scrollTrigger: {
-        trigger: ref.querySelector(".skills-grid"),
-        start: "top bottom",
-      },
-      scaleX: 0,
-      transformOrigin: "0px 0px",
-      ease: "none",
-      duration: 1.4,
-    });
     gsap.from(ref.querySelector(".skills-grid"), {
       scrollTrigger: {
         trigger: ref.querySelector(".skills-grid"),
@@ -159,7 +48,7 @@ const Skills = ({ BackToTop }) => {
       },
       y: "-250px",
       opacity: 0,
-      duration: 2,
+      duration: 1,
     });
   }, []);
   return (
@@ -260,138 +149,113 @@ const Skills = ({ BackToTop }) => {
               <h2>LIBRARIES, FRAMEWORKS & SOFTWARE</h2>
               <div className="circle"></div>
             </div>
-            <div className="skills-grid">
-              <div className="skills-item">
-                <div className="skills-item-child">
-                  <p>React JS</p>
-                  <p className="prof-title">PROFICIENCY</p>
-                  <ProgressBar completed={80} bgColor={"#458FFF"} />
+            <div className=" skills-grid">
+              <div className="skillcard">
+                <div className="skill-icon">
+                  <img src={ReactImg} alt="" />
                 </div>
-                <div className="experience-flag-cont">
-                  <p>EXP.</p>
-                  <p>2 yrs</p>
+                <div className="skill-info">
+                  <div className="skill-title">React JS</div>
+                  <div className="skill-subtitle">JavaScript</div>
                 </div>
               </div>
-              <div className="skills-item">
-                <div className="skills-item-child">
-                  <p>Flask</p>
-                  <p className="prof-title">PROFICIENCY</p>
-                  <ProgressBar completed={60} bgColor={"#458FFF"} />
+              <div className="skillcard">
+                <div className="skill-icon">
+                  <img src={Flask} alt="" />
                 </div>
-                <div className="experience-flag-cont">
-                  <p>EXP.</p>
-                  <p>1 year</p>
+                <div className="skill-info">
+                  <div className="skill-title">Flask</div>
+                  <div className="skill-subtitle">Python</div>
                 </div>
               </div>
-              <div className="skills-item">
-                <div className="skills-item-child">
-                  <p>Selenium</p>
-                  <p className="prof-title">PROFICIENCY</p>
-                  <ProgressBar completed={95} bgColor={"#458FFF"} />
+              <div className="skillcard">
+                <div className="skill-icon">
+                  <img src={Selenium} alt="" />
                 </div>
-                <div className="experience-flag-cont">
-                  <p>EXP.</p>
-                  <p>16 mo.</p>
+                <div className="skill-info">
+                  <div className="skill-title">Selenium</div>
+                  <div className="skill-subtitle">Python</div>
                 </div>
               </div>
-              <div className="skills-item">
-                <div className="skills-item-child">
-                  <p>JQuery</p>
-                  <p className="prof-title">PROFICIENCY</p>
-                  <ProgressBar completed={90} bgColor={"#458FFF"} />
+              <div className="skillcard">
+                <div className="skill-icon">
+                  <img src={JQuery} alt="" />
                 </div>
-                <div className="experience-flag-cont">
-                  <p>EXP.</p>
-                  <p>18 mo.</p>
+                <div className="skill-info">
+                  <div className="skill-title">jQuery</div>
+                  <div className="skill-subtitle">JavaScript</div>
                 </div>
               </div>
-              <div className="skills-item">
-                <div className="skills-item-child">
-                  <p>TensorFlow</p>
-                  <p className="prof-title">PROFICIENCY</p>
-                  <ProgressBar completed={65} bgColor={"#458FFF"} />
+              <div className="skillcard">
+                <div className="skill-icon">
+                  <img src={TensorFlow} alt="" />
                 </div>
-                <div className="experience-flag-cont">
-                  <p>EXP.</p>
-                  <p>8 mo.</p>
+                <div className="skill-info">
+                  <div className="skill-title">TensorFlow</div>
+                  <div className="skill-subtitle">Python</div>
                 </div>
               </div>
-              <div className="skills-item">
-                <div className="skills-item-child">
-                  <p>Node JS</p>
-                  <p className="prof-title">PROFICIENCY</p>
-                  <ProgressBar completed={80} bgColor={"#458FFF"} />
+              <div className="skillcard">
+                <div className="skill-icon">
+                  <img src={ReactImg} alt="" />
                 </div>
-                <div className="experience-flag-cont">
-                  <p>EXP.</p>
-                  <p>8 mo.</p>
+                <div className="skill-info">
+                  <div className="skill-title">React Native</div>
+                  <div className="skill-subtitle">Java Script</div>
                 </div>
               </div>
-
-              <div className="skills-item">
-                <div className="skills-item-child">
-                  <p>Express</p>
-                  <p className="prof-title">PROFICIENCY</p>
-                  <ProgressBar completed={65} bgColor={"#458FFF"} />
+              <div className="skillcard">
+                <div className="skill-icon">
+                  <img src={Mongo} alt="" />
                 </div>
-                <div className="experience-flag-cont">
-                  <p>EXP.</p>
-                  <p>8 mo.</p>
+                <div className="skill-info">
+                  <div className="skill-title">Mongo DB</div>
+                  <div className="skill-subtitle">DataBase</div>
                 </div>
               </div>
-              <div className="skills-item">
-                <div className="skills-item-child">
-                  <p>Bootstrap, Tailwind</p>
-                  <p className="prof-title">PROFICIENCY</p>
-                  <ProgressBar completed={70} bgColor={"#458FFF"} />
+              <div className="skillcard">
+                <div className="skill-icon">
+                  <img src={AWS} alt="" />
                 </div>
-                <div className="experience-flag-cont">
-                  <p>EXP.</p>
-                  <p>16 mo.</p>
+                <div className="skill-info">
+                  <div className="skill-title">AWS</div>
+                  <div className="skill-subtitle">Web Services</div>
                 </div>
               </div>
-              <div className="skills-item">
-                <div className="skills-item-child">
-                  <p>Fusion 360</p>
-                  <p className="prof-title">PROFICIENCY</p>
-                  <ProgressBar completed={85} bgColor={"#458FFF"} />
+              <div className="skillcard">
+                <div className="skill-icon">
+                  <img src={Play} alt="" />
                 </div>
-                <div className="experience-flag-cont">
-                  <p>EXP.</p>
-                  <p>8 mo.</p>
+                <div className="skill-info">
+                  <div className="skill-title">Play</div>
+                  <div className="skill-subtitle">Scala Framework</div>
                 </div>
               </div>
-              <div className="skills-item">
-                <div className="skills-item-child">
-                  <p>Play</p>
-                  <p className="prof-title">PROFICIENCY</p>
-                  <ProgressBar completed={75} bgColor={"#458FFF"} />
+              <div className="skillcard">
+                <div className="skill-icon">
+                  <img src={Fusion} alt="" />
                 </div>
-                <div className="experience-flag-cont">
-                  <p>EXP.</p>
-                  <p>18 mo.</p>
+                <div className="skill-info">
+                  <div className="skill-title">Fusion 360</div>
+                  <div className="skill-subtitle">3D Modelling</div>
                 </div>
               </div>
-              <div className="skills-item">
-                <div className="skills-item-child">
-                  <p>Angular</p>
-                  <p className="prof-title">PROFICIENCY</p>
-                  <ProgressBar completed={65} bgColor={"#458FFF"} />
+              <div className="skillcard">
+                <div className="skill-icon">
+                  <img src={temp} alt="" />
                 </div>
-                <div className="experience-flag-cont">
-                  <p>EXP.</p>
-                  <p>1 year</p>
+                <div className="skill-info">
+                  <div className="skill-title">React JS</div>
+                  <div className="skill-subtitle">JavaScript</div>
                 </div>
               </div>
-              <div className="skills-item">
-                <div className="skills-item-child">
-                  <p>Mongo DB</p>
-                  <p className="prof-title">PROFICIENCY</p>
-                  <ProgressBar completed={70} bgColor={"#458FFF"} />
+              <div className="skillcard">
+                <div className="skill-icon">
+                  <img src={temp} alt="" />
                 </div>
-                <div className="experience-flag-cont">
-                  <p>EXP.</p>
-                  <p>1 year</p>
+                <div className="skill-info">
+                  <div className="skill-title">React JS</div>
+                  <div className="skill-subtitle">JavaScript</div>
                 </div>
               </div>
             </div>

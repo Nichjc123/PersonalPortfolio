@@ -419,11 +419,36 @@ $SK-mg-x: 12em;
 }
 
 .skills-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  border-radius: 10px;
-  background-color: white;
-  box-shadow: 5px 10px 18px #888888;
+  display: flex;
+  flex-wrap: wrap;
+  .skill-info {
+    height: fit-content;
+    .skill-subtitle {
+      font-size: 0.7rem;
+    }
+    .skill-title {
+      font-size: 1.3rem;
+    }
+  }
+  .skillcard {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 8px;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 300px;
+    margin: 10px 20px;
+  }
+  .skill-icon {
+    height: fit-content;
+    img {
+      height: 30px;
+      margin: 12px 10px;
+      width: auto;
+    }
+  }
 }
 
 .skills-item {
@@ -1026,9 +1051,6 @@ $PR-mg-x: 12em;
   }
   .skills__table {
     margin: 0 1em;
-  }
-  .skills-grid {
-    grid-template-columns: auto;
   }
   .experience-flag-cont {
     display: none;
