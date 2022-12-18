@@ -71,10 +71,10 @@ const Skills = ({ BackToTop }) => {
             <p>
               My name is Nicholas Cantone, I have practiced competitive team
               sports (hockey, soccer) and classical music all my life. Through
-              sports I have come to truly recognize the important role
+              sports, I have come to truly recognize the critical role
               communication plays in collaborating efficiently and effectively.
-              Through music I have learned how attention to detail is key in
-              delivering a piece of work without mistakes.
+              Through music, I have learned how attention to detail is key in
+              delivering work without mistakes.
             </p>
             <br />
             <p>
@@ -82,7 +82,7 @@ const Skills = ({ BackToTop }) => {
               in Python to collect covid statistics or to book my timeslot at
               the gym right when it opened. Ever since, I have continued to
               develop my skills and knowledge branching into domains of Frontend
-              and Backend web development, machine learning and blockchain
+              and Backend web development, machine learning, and blockchain
               development. To view my projects and past experience click the 'My
               Work' or 'Project' buttons in the interactive resume navigation
               above.

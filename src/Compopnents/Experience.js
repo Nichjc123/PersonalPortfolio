@@ -75,15 +75,16 @@ const Experience = ({ BackToTop }) => {
                   satisfaction)
                 </p>
                 <p>
+                  Decentralized web application lead to contract with client
+                  possessing a market cap of over 140B
+                </p>
+                <p>
                   Reduced project cost by 25% by suggesting flow blockchain with
                   subsidized transactions and IPFS hosting
                 </p>
                 <p>
                   Chosen by Chief of Architecture to represent all internal
-                  blockchain development at TribalScale webinar Created and
-                  launched 3 unique non fungible token smart contracts on flow
-                  blockchain implementing NFT and Metadata standards allowing
-                  for transferability and royalties.
+                  blockchain development at TribalScale webinar
                 </p>
               </div>
             </div>
@@ -96,14 +97,18 @@ const Experience = ({ BackToTop }) => {
                 <h2>XTIVA- Financial Systems</h2>
                 <h4>FrontEnd Developer (Aug 2021 - Apr 2022)</h4>
                 <p>
-                  Worked within an agile team to develop new designs and
-                  versions of our web services. Implemented enhanceents and
-                  improved visuals by translating UX/UI design.
+                  Leveraged Scala’s play framework to create multiple new
+                  systems including compensation model creation and data error
+                  correction (20,000+ DAU)
                 </p>
                 <p>
-                  Worked closely with backend developers on a very large code
-                  base. My contributions as a front end developer lead me to
-                  adopt somewhat of a design role as well.
+                  Compensation model tool provided service to admin users
+                  resulting in a client growth of 10%+
+                </p>
+                <p>
+                  Received a promotion within 3 months due to development of a
+                  condensed verison of our application providing accessiblity to
+                  non-admin users
                 </p>
               </div>
             </div>
@@ -134,13 +139,13 @@ const Experience = ({ BackToTop }) => {
                 <h2>Cabinet Office of Ontario</h2>
                 <h4>Executive IT Support (Jan-April 2021)</h4>
                 <p>
-                  Acted as quality control worker by supervising and reviewing
-                  work of other processors to ensure operation of warehouse
-                  processes was done without error.
+                  Developed a landing page for the Cabinet Office IT team using
+                  PHP and MS apps to simplify their contact and request process
                 </p>
                 <p>
-                  Processed orders using several databases and technical systems
-                  to ensure the receival of shipments.
+                  Transformed the IT team workflow with automated ticket
+                  submission and tracking using MS PowerAutomate, thus
+                  decreasing wait time from 10 mins - approx. 5 mins
                 </p>
               </div>
             </div>

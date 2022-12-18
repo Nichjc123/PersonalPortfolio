@@ -191,7 +191,7 @@ const Projects = ({ BackToTop }) => {
               <div className="sec-text">SECTION 2.3</div>
               <div className="title-container">
                 <div className="title-text">Sudoku Solver</div>
-                <a href="https://ncstock-tracker.netlify.app">
+                <a href="https://github.com/Nichjc123/SudokuSolver">
                   <BiLinkExternal />
                 </a>
               </div>
