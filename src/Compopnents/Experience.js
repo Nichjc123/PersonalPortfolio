@@ -57,7 +57,7 @@ const Experience = ({ BackToTop }) => {
         <div className="experience">
           <div className="exp-header">
             <p>SECTION 3</p>
-            <h1>EXPERIENCE</h1>
+            <h1>MY WORK</h1>
           </div>
           <div className="expS-cont">
             <div className="exp-cont">
@@ -66,14 +66,24 @@ const Experience = ({ BackToTop }) => {
                 <div className="rect"></div>
               </div>
               <div className="exp-desc-cont cont1">
-                <h2>XTIVA- Financial Systems</h2>
-                <h4>FrontEnd Developer (Aug 2021 - Apr 2022)</h4>
+                <h2>TribalScale</h2>
+                <h4>Software Engineer (Sep 2022 - Dec 2022)</h4>
                 <p>
-                  Acted as UX/UI designer and FE developer to create multiple new systems including error correction and rule creation. 
+                  Developed 3 decentralized web applications using React.js, AWS
+                  and Cadence to provide proof of attendance for client-facing
+                  TribalScale events (Used by 200+ attendees, 95%+ client
+                  satisfaction)
                 </p>
                 <p>
-                  The Xtiva codebase consisted of a scala backend and Play framework FrontEnd paired with jQuery and Kendo UI. All design followed 
-                  google's material design guidelines. 
+                  Reduced project cost by 25% by suggesting flow blockchain with
+                  subsidized transactions and IPFS hosting
+                </p>
+                <p>
+                  Chosen by Chief of Architecture to represent all internal
+                  blockchain development at TribalScale webinar Created and
+                  launched 3 unique non fungible token smart contracts on flow
+                  blockchain implementing NFT and Metadata standards allowing
+                  for transferability and royalties.
                 </p>
               </div>
             </div>
@@ -83,8 +93,8 @@ const Experience = ({ BackToTop }) => {
                 <div className="rect"></div>
               </div>
               <div className="exp-desc-cont cont2">
-                <h2>SKY IT</h2>
-                <h4>FrontEnd Developer (Apr 2021 - Sep 2021)</h4>
+                <h2>XTIVA- Financial Systems</h2>
+                <h4>FrontEnd Developer (Aug 2021 - Apr 2022)</h4>
                 <p>
                   Worked within an agile team to develop new designs and
                   versions of our web services. Implemented enhanceents and
@@ -103,18 +113,15 @@ const Experience = ({ BackToTop }) => {
                 <div className="rect"></div>
               </div>
               <div className="exp-desc-cont cont3">
-                <h2>Cabinet Office</h2>
-                <h4>Full Stack Developer (Jan-April 2021)</h4>
+                <h2>SKY IT</h2>
+                <h4>FrontEnd Developer (Apr 2021 - Sep 2021)</h4>
                 <p>
-                  Acted as a member of the infrastrucutre technology team for
-                  the Ontario Cabinet office.
+                  Worked within an agile team to implement a completely
+                  redesigned version of their aviation asset managment software.
                 </p>
                 <p>
-                  My duties included making flows in Micrsoft Power automate to
-                  automate tasks and procedures like finding information about
-                  assets a client posses or routine data managment. However one
-                  of the larger projects I undertook was creating a landing page
-                  for our department. (Highlighted in Projects section)
+                  Given UX/UI design responsabilities in response to enhacements
+                  suggested to proposed redesign.
                 </p>
               </div>
             </div>
@@ -124,8 +131,8 @@ const Experience = ({ BackToTop }) => {
                 <div className="rect"></div>
               </div>
               <div className="exp-desc-cont last-cont cont4">
-                <h2>Pool Supplies Canada</h2>
-                <h4>Processing and Quality Assurance(Apr 2018 - Aug 2020)</h4>
+                <h2>Cabinet Office of Ontario</h2>
+                <h4>Executive IT Support (Jan-April 2021)</h4>
                 <p>
                   Acted as quality control worker by supervising and reviewing
                   work of other processors to ensure operation of warehouse

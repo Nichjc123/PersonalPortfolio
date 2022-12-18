@@ -61,129 +61,74 @@ const Skills = ({ BackToTop }) => {
         <div className="skills">
           <div className="skill-header">
             <p>SECTION 1</p>
-            <h1>SKILLS</h1>
+            <h1>ABOUT ME</h1>
           </div>
-          <div className="skills__card">
+          <div className="skills__card" style={{ zIndex: 100 }}>
             <div className="skills__card__header">
               <h4>SECTION 1.1</h4>
-              <h2>PROGRAMMING LANGUAGES</h2>
-              <p>
-                Almost all of my programming knowledge has been self-taught.
-                Through books from my local library, a plethora of YouTube
-                videos and hours of practice and studying I have managed to gain
-                a proficiency with multiple technologies that I could implement
-                in a professional setting. The projects I have undertaken and
-                completed are driven by an interest in the subject and sometimes
-                a need to make life a little easier.
-              </p>
+              <h2>PERSONAL STATEMENT</h2>
             </div>
-            <div className="skills__card__cards">
-              <div className="skills__card__card">
-                <h1>Python</h1>
-                <h5>
-                  I have used python to explore domains such as web scraping and
-                  machine learning using powerful libraries such as selenium and
-                  tensor flow. Visit my github for the code.
-                </h5>
-                <p>PROFICIENCY</p>
-                <div className="progress-bar">
-                  <div style={{ width: "75%" }} className="progress-bar-FILL">
-                    {" "}
-                    85%
-                  </div>
-                </div>
-                <img src={python} alt="" />
-              </div>
-              <div className="skills__card__card">
-                <h1>JavaScript</h1>
-                <h5>
-                  I have used JavaScript to accomplish many tasks from front end
-                  development to game design. My experience includes libraries
-                  like jQuery and Kendo UI and frameworks such as react.js.
-                </h5>
-                <p>PROFICIENCY</p>
-                <div className="progress-bar">
-                  <div style={{ width: "85%" }} className="progress-bar-FILL">
-                    95%
-                  </div>
-                </div>
-                <img src={JS} alt="" />
-              </div>
-              <div className="skills__card__card">
-                <h1>C++</h1>
-                <h5>
-                  C++ is the first language that was ever taught to me in my
-                  programming fundamentals course. We explored Object Oriented
-                  programming, Algorithms, inheritance, polymorphism and more.
-                </h5>
-                <p>PROFICIENCY</p>
-                <div className="progress-bar">
-                  <div style={{ width: "70%" }} className="progress-bar-FILL">
-                    70%
-                  </div>
-                </div>
-                <img src={Cpp} alt="" />
-              </div>
-              <div className="skills__card__card">
-                <h1>HTML / CSS</h1>
-                <h5>
-                  I truly enjoy web developpment, I believe it is a great
-                  opportunity to display my creativity and technical skill
-                  through varying stylistic visual elements. As displayed in the
-                  projects section.
-                </h5>
-                <p>PROFICIENCY</p>
-                <div className="progress-bar">
-                  <div style={{ width: "95%" }} className="progress-bar-FILL">
-                    95%
-                  </div>
-                </div>
-
-                <img src={htmlCSS} alt="" />
-              </div>
-            </div>
+            <p>
+              My name is Nicholas Cantone, I have practiced competitive team
+              sports (hockey, soccer) and classical music all my life. Through
+              sports I have come to truly recognize the important role
+              communication plays in collaborating efficiently and effectively.
+              Through music I have learned how attention to detail is key in
+              delivering a piece of work without mistakes.
+            </p>
+            <br />
+            <p>
+              I have been programming since the age of 17. I would make scripts
+              in Python to collect covid statistics or to book my timeslot at
+              the gym right when it opened. Ever since, I have continued to
+              develop my skills and knowledge branching into domains of Frontend
+              and Backend web development, machine learning and blockchain
+              development. To view my projects and past experience click the 'My
+              Work' or 'Project' buttons in the interactive resume navigation
+              above.
+            </p>
           </div>
           <div className="skills__table">
             <div className="skills__table__header">
               <h4>SECTION 1.2</h4>
-              <h2>LIBRARIES, FRAMEWORKS & SOFTWARE</h2>
+              <h2>SOME TECH I HAVE WORKED WITH</h2>
               <div className="circle"></div>
             </div>
             <div className=" skills-grid">
               <div className="skillcard">
                 <div className="skill-icon">
-                  <img src={ReactImg} alt="" />
+                  <img src={Cpp} alt="" />
                 </div>
                 <div className="skill-info">
-                  <div className="skill-title">React JS</div>
-                  <div className="skill-subtitle">JavaScript</div>
+                  <div className="skill-title">C/C++</div>
+                  <div className="skill-subtitle"></div>
                 </div>
               </div>
               <div className="skillcard">
                 <div className="skill-icon">
-                  <img src={Flask} alt="" />
+                  <img src={python} alt="" />
                 </div>
                 <div className="skill-info">
-                  <div className="skill-title">Flask</div>
-                  <div className="skill-subtitle">Python</div>
+                  <div className="skill-title">Python</div>
+                  <div className="skill-subtitle"></div>
                 </div>
               </div>
               <div className="skillcard">
                 <div className="skill-icon">
-                  <img src={Selenium} alt="" />
+                  <img src={JS} alt="" />
                 </div>
                 <div className="skill-info">
-                  <div className="skill-title">Selenium</div>
-                  <div className="skill-subtitle">Python</div>
+                  <div className="skill-title">JavaScript</div>
+                  <div className="skill-subtitle"></div>
                 </div>
               </div>
               <div className="skillcard">
                 <div className="skill-icon">
-                  <img src={JQuery} alt="" />
+                  <img src={htmlCSS} alt="" />
                 </div>
                 <div className="skill-info">
-                  <div className="skill-title">jQuery</div>
-                  <div className="skill-subtitle">JavaScript</div>
+                  <div className="skill-title">Cadence</div>
+                  <div className="skill-subtitle"></div>
                 </div>
               </div>
               <div className="skillcard">
@@ -200,7 +145,7 @@ const Skills = ({ BackToTop }) => {
                   <img src={ReactImg} alt="" />
                 </div>
                 <div className="skill-info">
-                  <div className="skill-title">React Native</div>
+                  <div className="skill-title">React JS</div>
                   <div className="skill-subtitle">Java Script</div>
                 </div>
               </div>
@@ -210,7 +155,7 @@ const Skills = ({ BackToTop }) => {
                 </div>
                 <div className="skill-info">
                   <div className="skill-title">Mongo DB</div>
-                  <div className="skill-subtitle">DataBase</div>
+                  <div className="skill-subtitle">Database</div>
                 </div>
               </div>
               <div className="skillcard">
@@ -227,8 +172,8 @@ const Skills = ({ BackToTop }) => {
                   <img src={Play} alt="" />
                 </div>
                 <div className="skill-info">
-                  <div className="skill-title">Play</div>
-                  <div className="skill-subtitle">Scala Framework</div>
+                  <div className="skill-title">NodeJS</div>
+                  <div className="skill-subtitle">JavaScript</div>
                 </div>
               </div>
               <div className="skillcard">
@@ -245,17 +190,17 @@ const Skills = ({ BackToTop }) => {
                   <img src={temp} alt="" />
                 </div>
                 <div className="skill-info">
-                  <div className="skill-title">React JS</div>
-                  <div className="skill-subtitle">JavaScript</div>
+                  <div className="skill-title">Git/GitHub</div>
+                  <div className="skill-subtitle"></div>
                 </div>
               </div>
               <div className="skillcard">
                 <div className="skill-icon">
-                  <img src={temp} alt="" />
+                  <img src={Flask} alt="" />
                 </div>
                 <div className="skill-info">
-                  <div className="skill-title">React JS</div>
-                  <div className="skill-subtitle">JavaScript</div>
+                  <div className="skill-title">Solidity</div>
+                  <div className="skill-subtitle"></div>
                 </div>
               </div>
             </div>

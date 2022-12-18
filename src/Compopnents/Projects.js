@@ -1,17 +1,15 @@
 import React from "react";
 import { useRef, useEffect } from "react";
 import { BiLinkExternal } from "react-icons/bi";
-import HomePage from "../images/HomePage.png";
-import StockTracker from "../images/StockTracker.png";
+import HomePage from "../images/imgClass1.png";
+import FiresideChat from "../images/StockTracker.png";
 import Game1 from "../images/2048-1.png";
 import Game2 from "../images/2048-2.png";
 import Shooter1 from "../images/shooter1.png";
 import Shooter2 from "../images/shooter2.png";
-import ImageSlider from "./ImageSlider";
 import { FaArrowCircleUp } from "react-icons/fa";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Splide, SplideSlide } from "@splidejs/react-splide";
 
 const Projects = ({ BackToTop }) => {
   let ref = useRef(null);
@@ -140,8 +138,8 @@ const Projects = ({ BackToTop }) => {
             <div className="proj-info">
               <div className="sec-text">SECTION 2.1</div>
               <div className="title-container">
-                <div className="title-text">Stock Price Predictor</div>
-                <a href="https://github.com/Nichjc123/Projects/blob/master/2021/MachineLearning/stockPredictor.py">
+                <div className="title-text">FiresideChat</div>
+                <a href="https://firesidechat.herokuapp.com/">
                   <BiLinkExternal />
                 </a>
               </div>
@@ -149,38 +147,40 @@ const Projects = ({ BackToTop }) => {
               <div className="desc-tile">FEATURES</div>
               <div className="desc-wrapper">
                 <p>
-                  This is a machine learning project used to predict the stock price of 
-                  AAPL. Using its trading history from 1984 - 2017. I utilized a 4 layer neural network with
-                  3 LSTM layers to build the model. An accuracy of approximately 0.61 was acheived on the testing data of 2011-2017.
+                  Full stack chat application with fully specified REST backend
+                  built using Node.JS, Express.js and MongoDB. The app has
+                  simultaneous chatroom functionality implemented using
+                  websockets, user creation, user authentication and chatroom
+                  management using MongoDB. The FrontEnd was created using
+                  React.js with extensive focus on accessibility and ease of use
                 </p>
               </div>
             </div>
-            <img src={HomePage} alt="" />
+            <img src={FiresideChat} alt="" />
           </div>
           <div className="project-container container-2">
             <div className="proj-info2">
               <div className="sec-text">SECTION 2.2</div>
               <div className="title-container">
-                <div className="title-text">NC Stock Tracker</div>
-                <a href="https://ncstock-tracker.netlify.app">
+                <div className="title-text">CRC Classification</div>
+                <a href="https://github.com/Nichjc123/CancerCellClassificationML">
                   <BiLinkExternal />
                 </a>
               </div>
             </div>
             <div className="container2">
-              <img src={StockTracker} alt="" />
+              <img src={HomePage} alt="" />
               <div className="info-2">
                 <div className="desc-tile">FEATURES</div>
                 <div className="desc-wrapper2">
                   <p>
-                    Using several API's this project obtains live Stock updates
-                    from google finance and displays them in card format.
-                  </p>
-                  <p>
-                    The information is constantly updated. The site has a search
-                    bar to filter through the different stocks on display, it
-                    also contains helpful links to finance news and any
-                    information reagrding the specific stock.
+                    Machine learning project, geared to solve Tensorflow’s
+                    colorectal histology image classification dataset. This
+                    model was developed and optimized over hundreds of
+                    iterations with modifications to model depth, width and
+                    hyperparameters. The final model contains four max pooling
+                    and covolutional layers, and 3 densely connected classifier
+                    layers to achieve a 92.13% accuracy over testing data.
                   </p>
                 </div>
               </div>
@@ -189,24 +189,21 @@ const Projects = ({ BackToTop }) => {
           <div className="project-container container-3">
             <div className="proj-info3">
               <div className="sec-text">SECTION 2.3</div>
-              <div className="title-text">CABINET OFFICE & XTIVA</div>
-              <div className="title-cover"></div>
+              <div className="title-container">
+                <div className="title-text">Sudoku Solver</div>
+                <a href="https://ncstock-tracker.netlify.app">
+                  <BiLinkExternal />
+                </a>
+              </div>
               <div className="desc-tile">DESCRIPTION</div>
               <div className="p-box">
                 <p>
-                  The slider displays a page for the Cabinet Office IT support. I
-                  have created this website independently using a Sharepoint services it is
-                  responsive and functional on mobile devices. With an adaptive
-                  dropdown menu.
-                </p>
-                <p>
-                  The slider also includes Xtiva's compact financial service site that I was tasked to design and create
-                  along with their main application.
+                  The sudoku solver was created using C++ and a backtracking
+                  algorithm. It is capable of completing sudokus of any solvable
+                  difficulty. The algorith has been optimised to increase
+                  efficiency and speed by 30%
                 </p>
               </div>
-            </div>
-            <div className="slider-cont">
-              <ImageSlider />
             </div>
           </div>
           <div id="title4" className="sec-text">

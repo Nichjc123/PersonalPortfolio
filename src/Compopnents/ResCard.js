@@ -18,24 +18,24 @@ const ResCard = ({ skillHandler, projHandler, expHandler }) => {
           </div>
           <div className="navP__links">
             <div className="navP__links_link">
-              <button onClick={skillHandler}>SKILLS</button>
+              <button onClick={skillHandler}>ABOUT ME</button>
             </div>
             <div className="navP__links_link">
               <button onClick={projHandler}>PROJECTS</button>
             </div>
             <div className="navP__links_link">
-              <button onClick={expHandler}>EXPERIENCE</button>
+              <button onClick={expHandler}>MY WORK</button>
             </div>
           </div>
         </div>
         <div className="right-column">
           <p id="resName">NICHOLAS CANTONE</p>
           <div className="aboutMe-container">
-            <h2>ABOUT ME</h2>
-            <p>Hello, I'm Nick,</p>
+            <h2>HI, HELLO</h2>
+            <p>I'm Nick,</p>
             <p>
               I am a computer engineering student at the University of Waterloo
-              with over 1.5 years of software development experience.
+              with extensive software development experience
             </p>
             <p>Click the icons below to contact me or view my work.</p>
             <div className="logo-hub">
