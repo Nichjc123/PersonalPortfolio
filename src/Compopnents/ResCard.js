@@ -1,7 +1,6 @@
 import React from "react";
 import { BiLinkExternal } from "react-icons/bi";
 import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
-import { Link } from "react-router-dom";
 
 const ResCard = ({ skillHandler, projHandler, expHandler }) => {
   return (
