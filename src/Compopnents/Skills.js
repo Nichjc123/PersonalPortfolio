@@ -17,7 +17,6 @@ import Play from "../images/skill images/Play-icon.png";
 import temp from "../images/skill images/Placeholder-logo.png";
 import TensorFlow from "../images/skill images/Tensor-icon.png";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Placeholder } from "react-bootstrap";
 
 const Skills = ({ BackToTop }) => {
   //ANIMATIONS

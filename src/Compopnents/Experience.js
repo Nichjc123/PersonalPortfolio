@@ -66,25 +66,22 @@ const Experience = ({ BackToTop }) => {
                 <div className="rect"></div>
               </div>
               <div className="exp-desc-cont cont1">
-                <h2>TribalScale</h2>
-                <h4>Software Engineer (Sep 2022 - Dec 2022)</h4>
+                <h2>Blackberry</h2>
+                <h4>Application Engineering Intern (May 2023 - Aug 2023)</h4>
                 <p>
-                  Developed 3 decentralized web applications using React.js, AWS
-                  and Cadence to provide proof of attendance for client-facing
-                  TribalScale events (Used by 200+ attendees, 95%+ client
-                  satisfaction)
+                Developed and implemented a deep convolutional neural network with a (U-Net) stacked hourglass architecture for
+efficient feature extraction, transfer learning and improving model generalization for 2D pose estimation
                 </p>
                 <p>
-                  Decentralized web application lead to contract with client
-                  possessing a market cap of over 140B
+                Optimized the model with hardware acceleration and compression for on-device inference in a resource-constrained
+embedded systems environment, reducing inference time by 40%
                 </p>
                 <p>
-                  Reduced project cost by 25% by suggesting flow blockchain with
-                  subsidized transactions and IPFS hosting
+                Created a client-facing ROS2 build from source for QNX’s RTOS, cross compiled for ARM and x86 architectures
                 </p>
                 <p>
-                  Chosen by Chief of Architecture to represent all internal
-                  blockchain development at TribalScale webinar
+                Modeled an enclosure for the embedded system, achieving a 50% reduction in physical footprint while optimizing
+heat dissipation and preserving computational performance
                 </p>
               </div>
             </div>
@@ -93,7 +90,7 @@ const Experience = ({ BackToTop }) => {
                 <div className="number-inner">02</div>
                 <div className="rect"></div>
               </div>
-              <div className="exp-desc-cont cont1">
+              <div className="exp-desc-cont cont2">
                 <h2>TribalScale</h2>
                 <h4>Software Engineer (Sep 2022 - Dec 2022)</h4>
                 <p>
@@ -121,7 +118,7 @@ const Experience = ({ BackToTop }) => {
                 <div className="number-inner">03</div>
                 <div className="rect"></div>
               </div>
-              <div className="exp-desc-cont cont2">
+              <div className="exp-desc-cont cont3">
                 <h2>XTIVA- Financial Systems</h2>
                 <h4>FrontEnd Developer (Aug 2021 - Apr 2022)</h4>
                 <p>

@@ -1,3 +1,4 @@
+import React from "react";
 import "./style.css";
 import Skills from "./Compopnents/Skills";
 import Projects from "./Compopnents/Projects";
