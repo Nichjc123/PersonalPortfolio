@@ -93,6 +93,34 @@ const Experience = ({ BackToTop }) => {
                 <div className="number-inner">02</div>
                 <div className="rect"></div>
               </div>
+              <div className="exp-desc-cont cont1">
+                <h2>TribalScale</h2>
+                <h4>Software Engineer (Sep 2022 - Dec 2022)</h4>
+                <p>
+                  Developed 3 decentralized web applications using React.js, AWS
+                  and Cadence to provide proof of attendance for client-facing
+                  TribalScale events (Used by 200+ attendees, 95%+ client
+                  satisfaction)
+                </p>
+                <p>
+                  Decentralized web application lead to contract with client
+                  possessing a market cap of over 140B
+                </p>
+                <p>
+                  Reduced project cost by 25% by suggesting flow blockchain with
+                  subsidized transactions and IPFS hosting
+                </p>
+                <p>
+                  Chosen by Chief of Architecture to represent all internal
+                  blockchain development at TribalScale webinar
+                </p>
+              </div>
+            </div>
+            <div className="exp-cont">
+              <div className="number">
+                <div className="number-inner">03</div>
+                <div className="rect"></div>
+              </div>
               <div className="exp-desc-cont cont2">
                 <h2>XTIVA- Financial Systems</h2>
                 <h4>FrontEnd Developer (Aug 2021 - Apr 2022)</h4>
@@ -109,24 +137,6 @@ const Experience = ({ BackToTop }) => {
                   Received a promotion within 3 months due to development of a
                   condensed verison of our application providing accessiblity to
                   non-admin users
-                </p>
-              </div>
-            </div>
-            <div className="exp-cont">
-              <div className="number">
-                <div className="number-inner">03</div>
-                <div className="rect"></div>
-              </div>
-              <div className="exp-desc-cont cont3">
-                <h2>SKY IT</h2>
-                <h4>FrontEnd Developer (Apr 2021 - Sep 2021)</h4>
-                <p>
-                  Worked within an agile team to implement a completely
-                  redesigned version of their aviation asset managment software.
-                </p>
-                <p>
-                  Given UX/UI design responsabilities in response to enhacements
-                  suggested to proposed redesign.
                 </p>
               </div>
             </div>
